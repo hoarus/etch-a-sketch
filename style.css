@@ -1,0 +1,62 @@
+html, body{
+    height: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.header{
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+
+}
+
+button{
+    height: 40px;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    width: 640px;
+    height: 640px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.column{
+    border: 0px solid red;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.square{
+    width: 100%;
+    border: 1px solid black;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+}
+
+.hover{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
